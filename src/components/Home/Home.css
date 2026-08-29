@@ -116,25 +116,25 @@
     .logo-container{
         display: flex;
         flex-direction: row-reverse;
-        padding-right: 230px;
+        padding-right: 110px;
     }
     
     .title-container{
         display: flex;
         justify-content: flex-end;
-        padding-right: 200px;
+        padding-right: 115px;
     }
     
     .title{
         font-family: "Lexend", sans-serif;
         color: white;
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     
     .divider {
         
-        width: 400px;
-        margin-right: 120px;
+        width: 200px;
+        margin-right: 100px;
         border: none;
         border-top: 2px solid white;
       }
@@ -142,11 +142,11 @@
       .vision-container{
         display: flex;
         justify-content: flex-end;
-        padding-right: 160px;
+        padding-right: 95px;
       }
     
       .vision{
         color: white;
-        font-size: 1.5em;
+        font-size: 1em;
       }
 }
