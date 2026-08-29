@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+
 .body{
     margin: 0;
 }
@@ -6,13 +8,45 @@
     background-image: url('/headerImage.jpeg');
     background-size: cover;
     background-position: center;
-    height: 70vh;
+    height: 85vh;
 }
 
-
+.logo{
+    height: 270px;
+}
 
 .logo-container{
     display: flex;
     flex-direction: row-reverse;
-    padding-right: 250px;
+    padding-right: 400px;
 }
+
+.title-container{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 420px;
+}
+
+.title{
+    font-family: "Lexend", sans-serif;
+    color: white;
+}
+
+.divider {
+    
+    width: 400px;
+    margin-right: 380px;
+    border: none;
+    border-top: 3px solid white;
+  }
+
+  .vision-container{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 365px;
+  }
+
+  .vision{
+    color: white;
+    font-size: 2em;
+  }
