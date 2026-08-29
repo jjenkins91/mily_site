@@ -8,3 +8,11 @@
     background-position: center;
     height: 70vh;
 }
+
+
+
+.logo-container{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 250px;
+}
