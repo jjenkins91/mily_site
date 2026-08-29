@@ -3,7 +3,7 @@
 }
 
 .header-container{
-    background-image: url('/Users/jasonjenkins/Desktop/MilySite/Mily_Site/src/assets/headerImage.jpeg');
+    background-image: url('/headerImage.jpeg');
     background-size: cover;
     background-position: center;
     height: 70vh;
