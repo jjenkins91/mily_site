@@ -24,7 +24,7 @@
 
 @media (max-width: 930px){
     .nosotros-title{
-        font-size: 4rem;
+        font-size: 3rem;
         font-weight: bold;
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         padding-left: .5em;
@@ -36,13 +36,13 @@
     }
     
     .nosotros-image{
-        height: 250px;
+        height: 200px;
         padding-top: .5em;
     }
     
     .nosotros-summary{
         margin: 0;
-        font-size: 1.5em;
+        font-size: 1.1em;
         padding-bottom: 20px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
