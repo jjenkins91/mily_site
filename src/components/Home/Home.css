@@ -8,45 +8,46 @@
     background-image: url('/headerImage.jpeg');
     background-size: cover;
     background-position: center;
-    height: 85vh;
+    height: 55vh;
 }
 
 .logo{
-    height: 270px;
+    height: 130px;
 }
 
 .logo-container{
     display: flex;
     flex-direction: row-reverse;
-    padding-right: 400px;
+    padding-right: 230px;
 }
 
 .title-container{
     display: flex;
     justify-content: flex-end;
-    padding-right: 420px;
+    padding-right: 200px;
 }
 
 .title{
     font-family: "Lexend", sans-serif;
     color: white;
+    font-size: 1.5rem;
 }
 
 .divider {
     
     width: 400px;
-    margin-right: 380px;
+    margin-right: 120px;
     border: none;
-    border-top: 3px solid white;
+    border-top: 2px solid white;
   }
 
   .vision-container{
     display: flex;
     justify-content: flex-end;
-    padding-right: 365px;
+    padding-right: 160px;
   }
 
   .vision{
     color: white;
-    font-size: 2em;
+    font-size: 1.5em;
   }
