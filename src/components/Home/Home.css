@@ -5,7 +5,7 @@
 }
 
 .header-container{
-    background-image: url('/headerImage.jpeg');
+    background-image: url('/headerImage.png');
     background-size: cover;
     background-position: center;
     height: 85vh;
@@ -53,7 +53,7 @@
 
   @media (max-width: 930px){
     .header-container{
-        background-image: url('/headerImage.jpeg');
+        background-image: url('/headerImage.png');
         background-size: cover;
         background-position: center;
         height: 55vh;
@@ -103,7 +103,7 @@
 
 @media (max-width: 480px){
     .header-container{
-        background-image: url('/headerImage.jpeg');
+        background-image: url('/headerImage.png');
         background-size: cover;
         background-position: center;
         height: 55vh;
