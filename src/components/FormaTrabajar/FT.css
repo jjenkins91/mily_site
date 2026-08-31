@@ -1,0 +1,133 @@
+.FT-container{
+    margin: 0;
+    background-color: #E77B49;
+    height: 75vh;
+}
+
+.FT-title{
+    font-size: 4.5rem;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: .5em;
+}
+
+.Formas-de-Trabajar{
+    height: 50vh;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.formas{
+    background-color: white;
+    padding: 10px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.header-title{
+    font-size: 3em;  
+}
+
+.formas-summary{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.formas-summary2{
+    padding-top: 54px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+@media ( max-width: 1310px){
+    .FT-container{
+        margin: 0;
+        background-color: #E77B49;
+        height: 55vh;
+    }
+    
+    .FT-title{
+        font-size: 3rem;
+        font-weight: bold;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding-left: .5em;
+    }
+    
+    .Formas-de-Trabajar{
+        height: 40vh;
+        padding: 10px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .formas{
+        background-color: white;
+        padding: 10px;
+        width: 280px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .header-title{
+        font-size: 1.7em;  
+    }
+    
+    .formas-summary{
+        font-size: 28px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .formas-summary2{
+        padding-top: 32px;
+        font-size: 28px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+}
+
+@media ( max-width: 800px){
+    .FT-container{
+        margin: 0;
+        background-color: #E77B49;
+        height: 30vh;
+    }
+    
+    .FT-title{
+        padding-top: 5px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding-left: .5em;
+    }
+    
+    .Formas-de-Trabajar{
+        height: 18vh;
+        padding: 10px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .formas{
+        background-color: white;
+        padding: 10px;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .header-title{
+        font-size: .8em;  
+    }
+    
+    .formas-summary{
+        font-size: 12px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .formas-summary2{
+        padding-top: 13.5px;
+        font-size: 12px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+}
