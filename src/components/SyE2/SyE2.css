@@ -1,33 +1,33 @@
-.body{
+.SyE2-container{
     margin: 0;
-}
-
-.FT-container{
-    margin: 0;
-    background-color: #E77B49;
+    padding: 0;
+    background-color: white;
     height: 75vh;
 }
 
-.FT-title{
+.SyE2-title{
+    margin-top: 0;
     font-size: 4.5rem;
     font-weight: bold;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-left: .5em;
 }
 
-.Formas-de-Trabajar{
+.servicios-especialidades2{
     height: 50vh;
     padding: 10px;
     display: flex;
     justify-content: space-evenly;
 }
 
-.formas{
+.s-y-e2{
     background-color: white;
+    height: 50vh;
     padding: 10px;
     width: 400px;
     display: flex;
     justify-content: center;
+    border: 2px solid black;
     text-align: center;
 }
 
@@ -35,70 +35,98 @@
     font-size: 3em;  
 }
 
-.formas-summary{
+.SyE2-summary{
+    padding-top: 65px;
     font-size: 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.formas-summary2{
-    padding-top: 54px;
+.SyE2-summary2{
+    padding-top: 10px;
     font-size: 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.SyE2-summary3{
+    padding-top: 65px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.professional-title{
+    text-align: center;
+    font-size: 1rem;
+    padding: 5px;
 }
 
 @media ( max-width: 1310px){
-    .FT-container{
+    .SyE2-container{
         margin: 0;
-        background-color: #E77B49;
-        height: 55vh;
+        background-color: white;
+        height: 57vh;
     }
     
-    .FT-title{
+    .SyE2-title{
         font-size: 3rem;
         font-weight: bold;
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         padding-left: .5em;
     }
     
-    .Formas-de-Trabajar{
+    .servicios-especialidades2{
         height: 40vh;
         padding: 10px;
         display: flex;
         justify-content: space-evenly;
     }
     
-    .formas{
+    .s-y-e2{
         background-color: white;
+        height: 40vh;
         padding: 10px;
         width: 280px;
         display: flex;
         justify-content: center;
+        border: 1.5px solid black;
     }
     
     .header-title{
         font-size: 1.7em;  
     }
     
-    .formas-summary{
+    .SyE2-summary{
+        padding-top: 46px;
         font-size: 28px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
     
-    .formas-summary2{
-        padding-top: 32px;
+    .SyE2-summary2{
+        padding-top: 15px;
         font-size: 28px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .SyE2-summary3{
+        padding-top: 46px;
+        font-size: 28px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .professional-title{
+        text-align: center;
+        font-size: 1rem;
+        padding: 5px;
     }
 }
 
 @media ( max-width: 800px){
-    .FT-container{
+    .SyE2-container{
         margin: 0;
-        background-color: #E77B49;
-        height: 30vh;
+        background-color: white;
+        height: 32vh;
     }
     
-    .FT-title{
+    .SyE2-title{
         padding-top: 5px;
         font-size: 1.5rem;
         font-weight: bold;
@@ -106,33 +134,48 @@
         padding-left: .5em;
     }
     
-    .Formas-de-Trabajar{
+    .servicios-especialidades2{
         height: 18vh;
         padding: 10px;
         display: flex;
         justify-content: space-evenly;
     }
     
-    .formas{
+    .s-y-e2{
         background-color: white;
+        height: 18vh;
         padding: 10px;
         width: 100px;
         display: flex;
         justify-content: center;
+        border: 1px solid black;
     }
     
     .header-title{
         font-size: .8em;  
     }
     
-    .formas-summary{
+    .SyE2-summary{
+        padding-top: 19.5px;
         font-size: 12px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
     
-    .formas-summary2{
-        padding-top: 13.5px;
+    .SyE2-summary2{
+        padding-top: 5px;
         font-size: 12px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .SyE2-summary3{
+        padding-top: 18.5px;
+        font-size: 12px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .professional-title{
+        text-align: center;
+        font-size: 1rem;
+        padding: 5px;
     }
 }

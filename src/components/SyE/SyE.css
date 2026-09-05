@@ -28,6 +28,8 @@
     width: 400px;
     display: flex;
     justify-content: center;
+    border: none;
+    text-align: center;
 }
 
 .header-title{
