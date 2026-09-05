@@ -2,6 +2,7 @@ import "./App.css";
 import FT from "./components/FormaTrabajar/FT";
 import Home from "./components/Home/Home";
 import Nosotros from "./components/Nosotros/Nosotros";
+import SyE from "./components/SyE/SyE";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Home />
       <Nosotros/>
       <FT/>
+      <SyE/>
     </>
   );
 }
