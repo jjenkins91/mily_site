@@ -73,7 +73,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        height: 50vh;
+        height: 40vh;
         color: white;
       }
       
@@ -89,9 +89,9 @@
       
       .ayuda-list {
           padding-top: 4.5px;
-        font-size: .7rem;
-        font-weight: bold;
-        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          font-size: .6rem;
+          font-weight: bold;
+          font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
           "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
       }
       

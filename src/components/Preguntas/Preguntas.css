@@ -1,92 +1,64 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400&display=swap');
 
-.preguntas-container{
+
+.preguntas-container {
     display: flex;
     justify-content: space-around;
 }
 
-.preguntas-title{
+.preguntas-title {
     font-size: 2.5rem;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: normal;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300 !important;
 }
 
-.preguntas-line{
+.preguntas-line {
     height: 2px;
     border: none;
     background-color: lightgrey;
 }
 
-.preguntas-section{
+.preguntas-section {
     padding-top: 10px;
 }
 
-.preguntas-list{
+.preguntas-list {
     font-size: 1.8rem;
     list-style: none;
     font-weight: bold;
 }
 
-.preguntas-answers{
+.preguntas-answers {
     font-size: 1.5rem;
 }
 
-@media (max-width: 1000px){
-    .preguntas-container{
-        display: flex;
-        justify-content: space-around;
-    }
-    
-    .preguntas-title{
+
+@media (max-width: 1000px) {
+    .preguntas-title {
         font-size: 2rem;
     }
-    
-    .preguntas-line{
-        height: 2px;
-        border: none;
-        background-color: lightgrey;
-    }
-    
-    .preguntas-section{
-        padding-top: 10px;
-    }
-    
-    .preguntas-list{
+
+    .preguntas-list {
         font-size: 1.5rem;
-        list-style: none;
     }
-    
-    .preguntas-answers{
+
+    .preguntas-answers {
         font-size: 1.2rem;
     }
 }
 
-@media (max-width: 780px){
-    .preguntas-container{
-        display: flex;
-        justify-content: space-around;
+
+@media (max-width: 780px) {
+    .preguntas-title {
+        font-size: 1.2rem;
+        font-weight: 300;
     }
-    
-    .preguntas-title{
-        font-size: 1.3rem;
-    }
-    
-    .preguntas-line{
-        height: 2px;
-        border: none;
-        background-color: lightgrey;
-    }
-    
-    .preguntas-section{
-        padding-top: 10px;
-    }
-    
-    .preguntas-list{
+
+    .preguntas-list {
         font-size: 1.1rem;
-        list-style: none;
     }
-    
-    .preguntas-answers{
+
+    .preguntas-answers {
         font-size: 1rem;
     }
 }
