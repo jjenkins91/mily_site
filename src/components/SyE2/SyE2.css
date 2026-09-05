@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     background-color: white;
-    height: 75vh;
+    height: 77vh;
 }
 
 .SyE2-title{
@@ -55,7 +55,7 @@
 
 .professional-title{
     text-align: center;
-    font-size: 1rem;
+    font-size: 2rem;
     padding: 5px;
 }
 
@@ -63,7 +63,7 @@
     .SyE2-container{
         margin: 0;
         background-color: white;
-        height: 57vh;
+        height: 60vh;
     }
     
     .SyE2-title{
@@ -114,7 +114,7 @@
 
     .professional-title{
         text-align: center;
-        font-size: 1rem;
+        font-size: 1.5rem;
         padding: 5px;
     }
 }
@@ -177,5 +177,6 @@
         text-align: center;
         font-size: 1rem;
         padding: 5px;
+        padding-top: 10px;
     }
 }
