@@ -25,14 +25,14 @@
 .email{
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
+    margin-left: 15px;
     margin-right: 10px;
 }
 
 .horario{
     display: flex;
     flex-direction: column;
-    margin-left: 15px;
+    margin-left: 5px;
 }
 
 .contact-schedule-title{
