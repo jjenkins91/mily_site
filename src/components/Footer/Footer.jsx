@@ -1,0 +1,44 @@
+import "./Footer.css";
+
+function Footer() {
+  return (
+    <>
+      <div className="footer-container">
+        <div className="logo-name">
+          <img className="footer-logo" src="penp2.jpeg" alt="" />
+          <p className="footer-name">
+            PUNTO 
+            <br />
+            EQUILIBRIO
+            <br />
+            NÜA 
+            <br />
+            PSICOLOGÍA
+          </p>
+        </div>
+        <div className="contact-schedule">
+          <div className="email">
+            <p className="contact-schedule-title">E-mail</p>
+            <p  className="contact-schedule-items">contacto@nuapsicologia.com</p>
+          </div>
+          <div className="horario">
+            <p className="contact-schedule-title">Horario de atencion</p>
+            <p className="contact-schedule-items">Lunes a Sabado: 9:00 - 18:00</p>
+          </div>
+        </div>
+        <hr />
+        <div className="social">      
+          <div>
+            <p className="follow-us">Siguenos</p>
+          </div>
+          <div>
+            <img className="social-icon" src="facebook.png" alt="" />
+            <img className="social-icon" src="instagram.png" alt="" />
+          </div>
+        </div>
+        <hr />
+      </div>
+    </>
+  );
+}
+export default Footer;

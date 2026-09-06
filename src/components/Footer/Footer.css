@@ -1,0 +1,59 @@
+.footer-container{
+    background-color: #1D2128;
+    height: 45vh;
+    color: white;
+}
+
+.logo-name{
+    display: flex;
+}
+
+.footer-logo{
+    margin-top: 10px;
+    margin-left: 5px;
+    height: 100px;
+}
+
+.footer-name{
+    margin-left: 10px;
+}
+
+.contact-schedule{
+    display: flex;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+
+.horario{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.contact-schedule-title{
+    font-size: 1.5rem;
+}
+
+.contact-schedule-items{
+    font-size: 1.1rem;
+}
+
+.social{
+    display: flex;
+}
+
+.follow-us{
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+.social-icon{
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-top: 15px;
+}
