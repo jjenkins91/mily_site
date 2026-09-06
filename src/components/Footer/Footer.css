@@ -25,7 +25,8 @@
 .email{
     display: flex;
     flex-direction: column;
-    margin-left: 5px;
+    margin-left: 20px;
+    margin-right: 10px;
 }
 
 .horario{
@@ -49,6 +50,7 @@
 .follow-us{
     font-size: 1.5rem;
     margin-right: 10px;
+    margin-left: 20px;
 }
 
 .social-icon{
