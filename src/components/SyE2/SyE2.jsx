@@ -4,19 +4,26 @@ function SyE2() {
   return (
     <>
       <div className="SyE2-container">
-        <h2 className="SyE2-title">Servicios y Especilidades</h2>
+        <h2 className="SyE2-title">Servicios y Especialidades</h2>
+
         <div className="servicios-especialidades2">
+
           <div className="s-y-e2">
             <div>
-              <h3 className="header-title">Psicologia para<br />adolescentes</h3>
+              <h3 className="header-title">
+                Psicología para
+                <br />
+                adolescentes
+              </h3>
+
               <p className="SyE2-summary2">
                 Espacio de escucha
                 <br />
-                y acompanamiento
+                y acompañamiento
                 <br />
                 durante los
                 <br />
-                cambios y desafios
+                cambios y desafíos
                 <br />
                 propios de esta
                 <br />
@@ -24,46 +31,55 @@ function SyE2() {
               </p>
             </div>
           </div>
+
           <div className="s-y-e2">
             <div>
-              <h3 className="header-title">Psicologia infantil</h3>
+              <h3 className="header-title">Psicología infantil</h3>
+
               <p className="SyE2-summary">
-                Evaluacion y
+                Evaluación y
                 <br />
-                y acompanamiento
+                acompañamiento
                 <br />
-                psicologico
+                psicológico
                 <br />
-                dirigido a ninos,
+                dirigido a niños,
                 <br />
-                segun sus
+                según sus
                 <br />
-                necesidades
+                necesidades.
               </p>
             </div>
           </div>
+
           <div className="s-y-e2">
             <div>
-              <h3 className="header-title">Neuropsicologia</h3>
+              <h3 className="header-title">Neuropsicología</h3>
+
               <p className="SyE2-summary3">
-                Evaluacion y
+                Evaluación y
                 <br />
-                rehabilitacion
+                rehabilitación
                 <br />
                 cognitiva para
                 <br />
                 cuidar tu salud
                 <br />
-                cerebral y calidad 
+                cerebral y calidad
                 <br />
                 de vida.
               </p>
             </div>
           </div>
+
         </div>
-        <h3 className="professional-title">Contamos con profesionals especializados</h3>
+
+        <h3 className="professional-title">
+          Contamos con profesionales especializados
+        </h3>
       </div>
     </>
   );
 }
+
 export default SyE2;

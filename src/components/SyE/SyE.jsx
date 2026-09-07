@@ -4,17 +4,24 @@ function SyE() {
   return (
     <>
       <div className="SyE-container">
-        <h2 className="SyE-title">Servicios y Especilidades</h2>
+        <h2 className="SyE-title">Servicios y Especialidades</h2>
+
         <div className="servicios-especialidades">
+
           <div className="s-y-e">
             <div>
-              <h3 className="header-title">Psicologia<br />Individual</h3>
+              <h3 className="header-title">
+                Psicología
+                <br />
+                Individual
+              </h3>
+
               <p className="SyE-summary2">
                 Espacios de
                 <br />
-                Acompanamiento
+                acompañamiento
                 <br />
-                o psicologico
+                psicológico
                 <br />
                 individual para
                 <br />
@@ -24,44 +31,55 @@ function SyE() {
               </p>
             </div>
           </div>
+
           <div className="s-y-e">
             <div>
               <h3 className="header-title">Terapia de pareja</h3>
+
               <p className="SyE-summary">
                 Un espacio para
                 <br />
                 trabajar
                 <br />
-                comunicacion
+                comunicación,
                 <br />
-                conflictos y<br />
-                dinamica de
+                conflictos y
                 <br />
-                pareja
+                dinámica de
+                <br />
+                pareja.
               </p>
             </div>
           </div>
+
           <div className="s-y-e">
             <div>
-              <h3 className="header-title">Orientacion<br />familiar</h3>
+              <h3 className="header-title">
+                Orientación
+                <br />
+                familiar
+              </h3>
+
               <p className="SyE-summary2">
-                Acompanamiento
+                Acompañamiento
                 <br />
                 para situaciones
                 <br />
                 relacionadas con
                 <br />
-                la dinamica y
+                la dinámica y
                 <br />
-                convivencia 
+                convivencia
                 <br />
                 familiar.
               </p>
             </div>
           </div>
+
         </div>
       </div>
     </>
   );
 }
+
 export default SyE;

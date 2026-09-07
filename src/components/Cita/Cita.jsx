@@ -20,6 +20,11 @@ function Cita() {
           <br />
           una vida más tranquila y saludable.
         </p>
+        <ul>
+          <li className="cita-list">Madalidades de atención presencial y psicológica 100 % online</li>
+          <li className="cita-list">Profesionales de la psicología certificados y colegiados</li>
+          <li className="cita-list">⁠Primera sesión gratuita y sin compromiso</li>
+        </ul>
         <a href="#" class="myButton">
           Agendar prueba gratuita!
         </a>

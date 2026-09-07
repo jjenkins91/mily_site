@@ -16,29 +16,36 @@ function Footer() {
             PSICOLOGÍA
           </p>
         </div>
+
         <div className="contact-schedule">
           <div className="email">
             <p className="contact-schedule-title">E-mail</p>
-            <p  className="contact-schedule-items">contacto@nuapsicologia.com</p>
+            <p className="contact-schedule-items">puntoequilibrio.nuapsicologia@gmail.com</p>
           </div>
+
           <div className="horario">
-            <p className="contact-schedule-title">Horario de atencion</p>
-            <p className="contact-schedule-items">Lunes a Sabado: 9:00 - 18:00</p>
+            <p className="contact-schedule-title">Horario de atención</p>
+            <p className="contact-schedule-items">Lunes a sábado: 9:00 - 18:00</p>
           </div>
         </div>
+
         <hr />
+
         <div className="social">      
           <div>
-            <p className="follow-us">Siguenos</p>
+            <p className="follow-us">Síguenos</p>
           </div>
+
           <div>
             <img className="social-icon" src="facebook.png" alt="" />
             <img className="social-icon" src="instagram.png" alt="" />
           </div>
         </div>
+
         <hr />
       </div>
     </>
   );
 }
+
 export default Footer;

@@ -5,41 +5,48 @@ function FT() {
     <>
       <div className="FT-container">
         <h2 className="FT-title">Nuestra forma de trabajar</h2>
+
         <div className="Formas-de-Trabajar">
+
           <div className="formas">
             <div>
               <h3 className="header-title">Escucha Activa</h3>
               <p className="formas-summary2">
                 Cada persona
                 <br />
-                tiene una historia
+                tiene una historia.
               </p>
             </div>
           </div>
+
           <div className="formas">
             <div>
               <h3 className="header-title">
-                Acompanamiento
+                Acompañamiento
                 <br />
                 Profesional
               </h3>
+
               <p className="formas-summary">
                 Trabajamos desde
                 <br />
                 una perspectiva
                 <br />
-                psicologica basada
+                psicológica basada
                 <br />
-                en conocimientos y<br />
+                en conocimientos y
+                <br />
                 herramientas
                 <br />
-                profesionales
+                profesionales.
               </p>
             </div>
           </div>
+
           <div className="formas">
             <div>
               <h3 className="header-title">Confidencialidad</h3>
+
               <p className="formas-summary2">
                 Protegemos la
                 <br />
@@ -47,13 +54,15 @@ function FT() {
                 <br />
                 cada proceso de
                 <br />
-                atencion
+                atención.
               </p>
             </div>
           </div>
+
         </div>
       </div>
     </>
   );
 }
+
 export default FT;

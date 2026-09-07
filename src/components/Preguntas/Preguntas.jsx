@@ -10,43 +10,51 @@ function Preguntas(){
                      Frecuentes</h2>
                 <hr className="preguntas-line" />
             </div>
+
             <div className="preguntas-section">
                 <ul>
                     <li className="preguntas-list">
-                    Necesito tener un diagnostico para
+                        ¿Necesito tener un diagnóstico para
                         <br/>
                         acudir a terapia?
                     </li>
+
                     <p className="preguntas-answers">
                         No necesariamente. Puedes solicitar
                         <br/>
-                        orientacion psicologica ante diferentes
+                        orientación psicológica ante diferentes
                         <br/>
                         situaciones personales, familiares o
                         <br/>
                         emocionales.
                     </p>
+
                     <li className="preguntas-list">
-                        Cuanto dura una sesion?
+                        ¿Cuánto dura una sesión?
                     </li>
+
                     <p className="preguntas-answers">
-                    Aproximadamente 60 minutos.
+                        Aproximadamente 60 minutos.
                     </p>
+
                     <li className="preguntas-list">
-                        La atencion es confidencial?
+                        ¿La atención es confidencial?
                     </li>
-                    <p  className="preguntas-answers">
-                    Si, la atencion psicologica se desarrolla
+
+                    <p className="preguntas-answers">
+                        Sí, la atención psicológica se desarrolla
                         <br/>
-                        respetando la confidencialidad y la normas
+                        respetando la confidencialidad y las normas
                         <br/>
                         profesionales aplicables.
                     </p>
+
                     <li className="preguntas-list">
-                        Como puedo reservar una cita?
+                        ¿Cómo puedo reservar una cita?
                     </li>
-                    <p  className="preguntas-answers">
-                    Puedes hacerlo de manera rapida mediante
+
+                    <p className="preguntas-answers">
+                        Puedes hacerlo de manera rápida mediante
                         <br/>
                         WhatsApp
                     </p>
@@ -56,4 +64,5 @@ function Preguntas(){
         </>
     );
 }
+
 export default Preguntas;
