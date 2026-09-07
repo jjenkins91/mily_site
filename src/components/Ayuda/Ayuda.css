@@ -4,99 +4,114 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 75vh;
+    min-height: 75vh;
     color: white;
-  }
-  
-  .ayuda-title {
-      font-size: 4rem;
-      text-align: center;
-  }
-  
-  .ayuda-questions {
-      font-size: 2rem;
-      padding-left: 30px;
-  }
-  
-  .ayuda-list {
-      padding-top: 4.5px;
-      font-size: 1.6rem;
-      font-weight: bold;
-      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  }
-  
-  .ayuda-statement{
-      font-size: 2.5rem;
-      text-align: center;
-  }
-
-@media (max-width: 1000px){
-    .ayuda-container {
-        padding: 15px;
-        background-image: url("/help.jpeg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        height: 55vh;
-        color: white;
-      }
-      
-      .ayuda-title {
-          font-size: 3rem;
-          text-align: center;
-      }
-      
-      .ayuda-questions {
-          font-size: 2rem;
-          padding-left: 20px;
-      }
-      
-      .ayuda-list {
-        padding-top: 4.5px;
-        font-size: 1.3rem;
-        font-weight: bold;
-        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-      }
-      
-      .ayuda-statement{
-          font-size: 1.5rem;
-          text-align: center;
-      }
+    box-sizing: border-box;
 }
 
-@media (max-width: 780px){
+.ayuda-title {
+    font-size: clamp(2rem, 5vw, 4rem);
+    text-align: center;
+}
+
+.ayuda-questions {
+    font-size: clamp(1.3rem, 2.5vw, 2rem);
+    padding-left: 30px;
+}
+
+.ayuda-list {
+    padding-top: 4.5px;
+    font-size: clamp(1rem, 2vw, 1.6rem);
+    font-weight: bold;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.ayuda-statement {
+    font-size: clamp(1.2rem, 3vw, 2.5rem);
+    text-align: center;
+}
+
+
+/* TABLET */
+@media (max-width: 1000px) {
+
     .ayuda-container {
+        min-height: 55vh;
         padding: 15px;
-        background-image: url("/help.jpeg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        height: 45vh;
-        color: white;
-      }
-      
-      .ayuda-title {
-          font-size: 2rem;
-          text-align: center;
-      }
-      
-      .ayuda-questions {
-          font-size: 1.3rem;
-          padding-left: 20px;
-      }
-      
-      .ayuda-list {
-          padding-top: 4.5px;
-          font-size: .6rem;
-          font-weight: bold;
-          font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-      }
-      
-      .ayuda-statement{
-          font-size: 1.2rem;
-          text-align: center;
-      }
+    }
+
+    .ayuda-title {
+        font-size: 3rem;
+    }
+
+    .ayuda-questions {
+        font-size: 2rem;
+        padding-left: 20px;
+    }
+
+    .ayuda-list {
+        padding-top: 4.5px;
+        font-size: 1.3rem;
+    }
+
+    .ayuda-statement {
+        font-size: 1.5rem;
+    }
+}
+
+
+/* PHONE */
+@media (max-width: 780px) {
+
+    .ayuda-container {
+        min-height: 45vh;
+        padding: 15px;
+    }
+
+    .ayuda-title {
+        font-size: 2rem;
+    }
+
+    .ayuda-questions {
+        font-size: 1.3rem;
+        padding-left: 20px;
+    }
+
+    .ayuda-list {
+        padding-top: 4.5px;
+        font-size: 0.9rem;
+    }
+
+    .ayuda-statement {
+        font-size: 1.2rem;
+    }
+}
+
+
+/* SMALL PHONE */
+@media (max-width: 480px) {
+
+    .ayuda-container {
+        min-height: 45vh;
+        padding: 10px;
+    }
+
+    .ayuda-title {
+        font-size: 1.7rem;
+    }
+
+    .ayuda-questions {
+        font-size: 1.1rem;
+        padding-left: 10px;
+    }
+
+    .ayuda-list {
+        padding-top: 3px;
+        font-size: 0.8rem;
+    }
+
+    .ayuda-statement {
+        font-size: 1rem;
+    }
 }

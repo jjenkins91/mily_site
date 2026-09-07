@@ -1,192 +1,184 @@
-.footer-container{
+.footer-container {
     background-color: #1D2128;
-    height: 60vh;
+    min-height: 60vh;
     color: white;
+    padding: 20px 0;
+    box-sizing: border-box;
 }
 
-.logo-name{
+/* Logo + name stay vertically aligned */
+.logo-name {
     display: flex;
-    font-size: 2rem;
+    align-items: center;
+    font-size: clamp(1.5rem, 2.5vw, 2rem);
 }
 
-.footer-logo{
-    margin-top: 10px;
+.footer-logo {
     margin-left: 5px;
-    height: 100px;
+    height: clamp(80px, 10vw, 150px);
+    width: auto;
+    display: block;
 }
 
-.footer-name{
+.footer-name {
     margin-left: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
-.contact-schedule{
+.contact-schedule {
     display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
 
-.email{
+.email {
     display: flex;
     flex-direction: column;
     margin-left: 15px;
     margin-right: 10px;
 }
 
-.horario{
+.horario {
     display: flex;
     flex-direction: column;
     margin-left: 5px;
 }
 
-.contact-schedule-title{
-    font-size: 1.8rem;
+.contact-schedule-title {
+    font-size: clamp(1.3rem, 2.2vw, 1.8rem);
 }
 
-.contact-schedule-items{
-    font-size: 1.5rem;
+.contact-schedule-items {
+    font-size: clamp(1rem, 1.8vw, 1.5rem);
 }
 
-.social{
+.social {
     display: flex;
+    align-items: center;
 }
 
-.follow-us{
-    font-size: 1.8rem;
+.follow-us {
+    font-size: clamp(1.3rem, 2.2vw, 1.8rem);
     margin-right: 10px;
     margin-left: 20px;
 }
 
-.social-icon{
+.social-icon {
+    width: 35px;
+    height: 35px;
     background-color: white;
     border-radius: 50%;
     margin-left: 5px;
     margin-top: 20px;
 }
 
-@media (max-width: 1000px){
-    .footer-container{
-        background-color: #1D2128;
-        height: 50vh;
-        color: white;
+
+/* TABLET */
+@media (max-width: 1000px) {
+
+    .footer-container {
+        min-height: auto;
+        padding: 30px 0;
     }
-    
-    .logo-name{
-        display: flex;
+
+    .logo-name {
+        font-size: 1.6rem;
     }
-    
-    .footer-logo{
-        margin-top: 10px;
-        margin-left: 5px;
-        height: 150px;
+
+    .footer-logo {
+        height: 100px;
     }
-    
-    .footer-name{
-        margin-left: 10px;
+
+    .contact-schedule-title {
         font-size: 1.5rem;
     }
-    
-    .contact-schedule{
-        display: flex;
+
+    .contact-schedule-items {
+        font-size: 1.2rem;
     }
-    
-    .email{
-        display: flex;
-        flex-direction: column;
-        margin-left: 15px;
-        margin-right: 10px;
-    }
-    
-    .horario{
-        display: flex;
-        flex-direction: column;
-        margin-left: 5px;
-    }
-    
-    .contact-schedule-title{
-        font-size: 2rem;
-    }
-    
-    .contact-schedule-items{
+
+    .follow-us {
         font-size: 1.5rem;
-    }
-    
-    .social{
-        display: flex;
-    }
-    
-    .follow-us{
-        font-size: 1.5rem;
-        margin-right: 10px;
-        margin-left: 20px;
-    }
-    
-    .social-icon{
-        background-color: white;
-        border-radius: 50%;
-        margin-left: 5px;
-        margin-top: 15px;
     }
 }
 
-@media (max-width: 780px){
-    .footer-container{
-        background-color: #1D2128;
-        height: 45vh;
-        color: white;
+
+/* PHONE */
+@media (max-width: 780px) {
+
+    .footer-container {
+        padding: 25px 0;
     }
-    
-    .logo-name{
-        display: flex;
+
+    .logo-name {
+        font-size: 1.3rem;
     }
-    
-    .footer-logo{
-        margin-top: 10px;
-        margin-left: 5px;
-        height: 100px;
+
+    .footer-logo {
+        height: 80px;
     }
-    
-    .footer-name{
+
+    .contact-schedule {
+        gap: 10px;
+    }
+
+    .contact-schedule-title {
+        font-size: 1.2rem;
+    }
+
+    .contact-schedule-items {
+        font-size: 1rem;
+    }
+
+    .follow-us {
+        font-size: 1.2rem;
         margin-left: 10px;
+    }
+
+    .social-icon {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+
+/* SMALL PHONE */
+@media (max-width: 480px) {
+
+    .footer-container {
+        padding: 20px 0;
+    }
+
+    .logo-name {
+        font-size: 1.1rem;
+    }
+
+    .footer-logo {
+        height: 65px;
+    }
+
+    .contact-schedule {
+        gap: 5px;
+    }
+
+    .contact-schedule-title {
         font-size: 1rem;
     }
-    
-    .contact-schedule{
-        display: flex;
+
+    .contact-schedule-items {
+        font-size: 0.85rem;
     }
-    
-    .email{
-        display: flex;
-        flex-direction: column;
-        margin-left: 15px;
-        margin-right: 10px;
-    }
-    
-    .horario{
-        display: flex;
-        flex-direction: column;
-        margin-left: 5px;
-    }
-    
-    .contact-schedule-title{
-        font-size: 1.5rem;
-    }
-    
-    .contact-schedule-items{
+
+    .follow-us {
         font-size: 1rem;
-    }
-    
-    .social{
-        display: flex;
-    }
-    
-    .follow-us{
-        font-size: 1.5rem;
-        margin-right: 10px;
-        margin-left: 20px;
-    }
-    
-    .social-icon{
-        background-color: white;
-        border-radius: 50%;
         margin-left: 5px;
-        margin-top: 15px;
+        margin-right: 5px;
+    }
+
+    .social-icon {
+        width: 25px;
+        height: 25px;
+        margin-left: 3px;
     }
 }
