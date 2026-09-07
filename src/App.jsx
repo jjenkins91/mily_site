@@ -7,6 +7,7 @@ import SyE2 from "./components/SyE2/SyE2";
 import Ayuda from "./components/Ayuda/Ayuda";
 import Preguntas from "./components/Preguntas/Preguntas";
 import Footer from "./components/Footer/Footer";
+import Cita from "./components/Cita/Cita";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <SyE2/>
       <Ayuda/>
       <Preguntas/>
+      <Cita/>
       <Footer/>
     </>
   );
