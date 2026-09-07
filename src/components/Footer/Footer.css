@@ -1,11 +1,12 @@
 .footer-container{
     background-color: #1D2128;
-    height: 45vh;
+    height: 60vh;
     color: white;
 }
 
 .logo-name{
     display: flex;
+    font-size: 2rem;
 }
 
 .footer-logo{
@@ -36,11 +37,11 @@
 }
 
 .contact-schedule-title{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 
 .contact-schedule-items{
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .social{
@@ -48,7 +49,7 @@
 }
 
 .follow-us{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin-right: 10px;
     margin-left: 20px;
 }
@@ -57,5 +58,135 @@
     background-color: white;
     border-radius: 50%;
     margin-left: 5px;
-    margin-top: 15px;
+    margin-top: 20px;
+}
+
+@media (max-width: 1000px){
+    .footer-container{
+        background-color: #1D2128;
+        height: 50vh;
+        color: white;
+    }
+    
+    .logo-name{
+        display: flex;
+    }
+    
+    .footer-logo{
+        margin-top: 10px;
+        margin-left: 5px;
+        height: 150px;
+    }
+    
+    .footer-name{
+        margin-left: 10px;
+        font-size: 1.5rem;
+    }
+    
+    .contact-schedule{
+        display: flex;
+    }
+    
+    .email{
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+        margin-right: 10px;
+    }
+    
+    .horario{
+        display: flex;
+        flex-direction: column;
+        margin-left: 5px;
+    }
+    
+    .contact-schedule-title{
+        font-size: 2rem;
+    }
+    
+    .contact-schedule-items{
+        font-size: 1.5rem;
+    }
+    
+    .social{
+        display: flex;
+    }
+    
+    .follow-us{
+        font-size: 1.5rem;
+        margin-right: 10px;
+        margin-left: 20px;
+    }
+    
+    .social-icon{
+        background-color: white;
+        border-radius: 50%;
+        margin-left: 5px;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 780px){
+    .footer-container{
+        background-color: #1D2128;
+        height: 45vh;
+        color: white;
+    }
+    
+    .logo-name{
+        display: flex;
+    }
+    
+    .footer-logo{
+        margin-top: 10px;
+        margin-left: 5px;
+        height: 100px;
+    }
+    
+    .footer-name{
+        margin-left: 10px;
+        font-size: 1rem;
+    }
+    
+    .contact-schedule{
+        display: flex;
+    }
+    
+    .email{
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+        margin-right: 10px;
+    }
+    
+    .horario{
+        display: flex;
+        flex-direction: column;
+        margin-left: 5px;
+    }
+    
+    .contact-schedule-title{
+        font-size: 1.5rem;
+    }
+    
+    .contact-schedule-items{
+        font-size: 1rem;
+    }
+    
+    .social{
+        display: flex;
+    }
+    
+    .follow-us{
+        font-size: 1.5rem;
+        margin-right: 10px;
+        margin-left: 20px;
+    }
+    
+    .social-icon{
+        background-color: white;
+        border-radius: 50%;
+        margin-left: 5px;
+        margin-top: 15px;
+    }
 }
