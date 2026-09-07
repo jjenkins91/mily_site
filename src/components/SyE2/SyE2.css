@@ -1,182 +1,236 @@
-.SyE2-container{
+.SyE2-container {
     margin: 0;
-    padding: 0;
+    padding: 20px 0;
     background-color: white;
-    height: 77vh;
+    min-height: 77vh;
+    box-sizing: border-box;
 }
 
-.SyE2-title{
+.SyE2-title {
     margin-top: 0;
-    font-size: 4.5rem;
+    font-size: clamp(2.5rem, 5vw, 4.5rem);
     font-weight: bold;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding-left: .5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 0.5em;
 }
 
-.servicios-especialidades2{
-    height: 50vh;
+.servicios-especialidades2 {
+    width: 95%;
+    margin: 0 auto;
+    min-height: 50vh;
     padding: 10px;
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
+    align-items: stretch;
+    gap: 20px;
+    box-sizing: border-box;
 }
 
-.s-y-e2{
+.s-y-e2 {
     background-color: white;
-    height: 50vh;
+    min-height: 50vh;
     padding: 10px;
     width: 400px;
+    max-width: 45%;
     display: flex;
     justify-content: center;
     border: 2px solid black;
     text-align: center;
+    box-sizing: border-box;
 }
 
-.header-title{
-    font-size: 3em;  
+.header-title {
+    font-size: clamp(1.8rem, 3vw, 3rem);
 }
 
-.SyE2-summary{
+.SyE2-summary {
     padding-top: 65px;
-    font-size: 30px;
+    font-size: clamp(1.1rem, 2vw, 1.875rem);
+    line-height: 1.5;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.SyE2-summary2{
+.SyE2-summary2 {
     padding-top: 10px;
-    font-size: 30px;
+    font-size: clamp(1.1rem, 2vw, 1.875rem);
+    line-height: 1.5;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.SyE2-summary3{
+.SyE2-summary3 {
     padding-top: 65px;
-    font-size: 30px;
+    font-size: clamp(1.1rem, 2vw, 1.875rem);
+    line-height: 1.5;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.professional-title{
+.professional-title {
     text-align: center;
-    font-size: 2rem;
+    font-size: clamp(1rem, 2vw, 2rem);
     padding: 5px;
 }
 
-@media ( max-width: 1310px){
-    .SyE2-container{
-        margin: 0;
-        background-color: white;
-        height: 60vh;
+
+/* TABLET */
+
+@media (max-width: 1035px) {
+
+    .SyE2-container {
+        min-height: auto;
+        padding: 15px 0 30px;
     }
-    
-    .SyE2-title{
+
+    .SyE2-title {
         font-size: 3rem;
-        font-weight: bold;
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        padding-left: .5em;
     }
-    
-    .servicios-especialidades2{
-        height: 40vh;
-        padding: 10px;
-        display: flex;
-        justify-content: space-evenly;
+
+    .servicios-especialidades2 {
+        width: 95%;
+        min-height: 40vh;
+        gap: 15px;
     }
-    
-    .s-y-e2{
-        background-color: white;
-        height: 40vh;
+
+    .s-y-e2 {
+        min-height: 40vh;
+        width: 45%;
+        max-width: 45%;
         padding: 10px;
-        width: 280px;
-        display: flex;
-        justify-content: center;
         border: 1.5px solid black;
     }
-    
-    .header-title{
-        font-size: 1.7em;  
+
+    .header-title {
+        font-size: 1.7rem;
     }
-    
-    .SyE2-summary{
+
+    .SyE2-summary,
+    .SyE2-summary2,
+    .SyE2-summary3 {
+        font-size: 1.3rem;
+    }
+
+    .SyE2-summary {
         padding-top: 46px;
-        font-size: 28px;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
-    
-    .SyE2-summary2{
+
+    .SyE2-summary2 {
         padding-top: 15px;
-        font-size: 28px;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
-    .SyE2-summary3{
+    .SyE2-summary3 {
         padding-top: 46px;
-        font-size: 28px;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
-    .professional-title{
-        text-align: center;
+    .professional-title {
         font-size: 1.5rem;
-        padding: 5px;
     }
 }
 
-@media ( max-width: 800px){
-    .SyE2-container{
-        margin: 0;
-        background-color: white;
-        height: 34vh;
+
+/* PHONE */
+
+@media (max-width: 780px) {
+
+    .SyE2-container {
+        min-height: auto;
+        padding: 10px 0 25px;
     }
-    
-    .SyE2-title{
+
+    .SyE2-title {
         padding-top: 5px;
-        font-size: 1.5rem;
-        font-weight: bold;
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        padding-left: .5em;
+        font-size: 1.8rem;
     }
-    
-    .servicios-especialidades2{
-        height: 18vh;
-        padding: 10px;
+
+    .servicios-especialidades2 {
+        width: 95%;
+        min-height: auto;
+        padding: 5px;
         display: flex;
+        flex-direction: row;
         justify-content: space-evenly;
+        gap: 10px;
     }
-    
-    .s-y-e2{
-        background-color: white;
-        height: 18vh;
-        padding: 10px;
-        width: 100px;
-        display: flex;
-        justify-content: center;
+
+    .s-y-e2 {
+        min-height: 200px;
+        width: 45%;
+        max-width: 45%;
+        padding: 8px;
         border: 1px solid black;
     }
-    
-    .header-title{
-        font-size: .8em;  
-    }
-    
-    .SyE2-summary{
-        padding-top: 19.5px;
-        font-size: 12px;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
-    
-    .SyE2-summary2{
-        padding-top: 5px;
-        font-size: 12px;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    .header-title {
+        font-size: 0.9rem;
     }
 
-    .SyE2-summary3{
-        padding-top: 18.5px;
-        font-size: 12px;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    .SyE2-summary,
+    .SyE2-summary2,
+    .SyE2-summary3 {
+        font-size: 0.8rem;
     }
 
-    .professional-title{
-        text-align: center;
+    .SyE2-summary {
+        padding-top: 20px;
+    }
+
+    .SyE2-summary2 {
+        padding-top: 8px;
+    }
+
+    .SyE2-summary3 {
+        padding-top: 20px;
+    }
+
+    .professional-title {
         font-size: 1rem;
-        padding: 5px;
         padding-top: 10px;
+    }
+}
+
+
+/* SMALL PHONES */
+
+@media (max-width: 480px) {
+
+    .SyE2-title {
+        font-size: 1.5rem;
+    }
+
+    .servicios-especialidades2 {
+        gap: 6px;
+    }
+
+    .s-y-e2 {
+        min-height: 170px;
+        width: 47%;
+        max-width: 47%;
+        padding: 6px;
+    }
+
+    .header-title {
+        font-size: 0.75rem;
+    }
+
+    .SyE2-summary,
+    .SyE2-summary2,
+    .SyE2-summary3 {
+        font-size: 0.7rem;
+    }
+
+    .SyE2-summary {
+        padding-top: 12px;
+    }
+
+    .SyE2-summary2 {
+        padding-top: 5px;
+    }
+
+    .SyE2-summary3 {
+        padding-top: 12px;
+    }
+
+    .professional-title {
+        font-size: 0.85rem;
     }
 }

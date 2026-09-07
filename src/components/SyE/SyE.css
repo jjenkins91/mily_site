@@ -1,144 +1,193 @@
-.SyE-container{
+.SyE-container {
     margin: 0;
-    padding: 0;
+    padding: 20px 0;
     background-color: #E2B59A;
-    height: 75vh;
-    align-items: center;
+    min-height: 75vh;
+    box-sizing: border-box;
 }
 
-.SyE-title{
+.SyE-title {
     margin-top: 0;
-    font-size: 4.5rem;
+    font-size: clamp(2.5rem, 5vw, 4.5rem);
     font-weight: bold;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding-left: .5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 0.5em;
 }
 
-.servicios-especialidades{
-    height: 50vh;
+.servicios-especialidades {
+    width: 95%;
+    margin: 0 auto;
+    min-height: 50vh;
     padding: 10px;
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
+    align-items: stretch;
+    gap: 20px;
+    box-sizing: border-box;
 }
 
-.s-y-e{
+.s-y-e {
     background-color: white;
-    height: 50vh;
+    min-height: 50vh;
     padding: 10px;
     width: 400px;
+    max-width: 45%;
     display: flex;
     justify-content: center;
     border: none;
     text-align: center;
+    box-sizing: border-box;
 }
 
-.header-title{
-    font-size: 3em;  
+.header-title {
+    font-size: clamp(1.8rem, 3vw, 3rem);
 }
 
-.SyE-summary{
+.SyE-summary {
     padding-top: 65px;
-    font-size: 30px;
+    font-size: clamp(1.1rem, 2vw, 1.875rem);
+    line-height: 1.5;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.SyE-summary2{
+.SyE-summary2 {
     padding-top: 10px;
-    font-size: 30px;
+    font-size: clamp(1.1rem, 2vw, 1.875rem);
+    line-height: 1.5;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-@media ( max-width: 1310px){
-    .SyE-container{
-        margin: 0;
-        background-color: #E2B59A;
-        height: 57vh;
+
+/* TABLET */
+
+@media (max-width: 1035px) {
+
+    .SyE-container {
+        min-height: auto;
+        padding: 15px 0 30px;
     }
-    
-    .SyE-title{
+
+    .SyE-title {
         font-size: 3rem;
-        font-weight: bold;
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        padding-left: .5em;
     }
-    
-    .servicios-y-especialidades{
-        height: 40vh;
+
+    .servicios-especialidades {
+        width: 95%;
+        min-height: 40vh;
+        gap: 15px;
+    }
+
+    .s-y-e {
+        min-height: 40vh;
+        width: 45%;
+        max-width: 45%;
         padding: 10px;
-        display: flex;
-        justify-content: space-evenly;
     }
-    
-    .s-y-e{
-        background-color: white;
-        height: 40vh;
-        padding: 10px;
-        width: 280px;
-        display: flex;
-        justify-content: center;
+
+    .header-title {
+        font-size: 1.7rem;
     }
-    
-    .header-title{
-        font-size: 1.7em;  
+
+    .SyE-summary,
+    .SyE-summary2 {
+        font-size: 1.3rem;
     }
-    
-    .SyE-summary{
+
+    .SyE-summary {
         padding-top: 46px;
-        font-size: 28px;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
-    
-    .SyE-summary2{
+
+    .SyE-summary2 {
         padding-top: 15px;
-        font-size: 28px;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 }
 
-@media ( max-width: 800px){
-    .SyE-container{
-        margin: 0;
-        background-color: #E2B59A;
-        height: 32vh;
+
+/* PHONE */
+
+@media (max-width: 780px) {
+
+    .SyE-container {
+        min-height: auto;
+        padding: 10px 0 25px;
     }
-    
-    .SyE-title{
+
+    .SyE-title {
         padding-top: 5px;
-        font-size: 1.5rem;
-        font-weight: bold;
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        padding-left: .5em;
+        font-size: 1.8rem;
     }
-    
-    .servicios-especialidades{
-        height: 18vh;
-        padding: 10px;
+
+    .servicios-especialidades {
+        width: 95%;
+        min-height: auto;
+        padding: 5px;
         display: flex;
+        flex-direction: row;
         justify-content: space-evenly;
+        gap: 10px;
     }
-    
-    .s-y-e{
-        background-color: white;
-        height: 18vh;
-        padding: 10px;
-        width: 100px;
-        display: flex;
-        justify-content: center;
+
+    .s-y-e {
+        min-height: 200px;
+        width: 45%;
+        max-width: 45%;
+        padding: 8px;
     }
-    
-    .header-title{
-        font-size: .8em;  
+
+    .header-title {
+        font-size: 0.9rem;
     }
-    
-    .SyE-summary{
-        padding-top: 19.5px;
-        font-size: 12px;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    .SyE-summary,
+    .SyE-summary2 {
+        font-size: 0.8rem;
     }
-    
-    .SyE-summary2{
+
+    .SyE-summary {
+        padding-top: 20px;
+    }
+
+    .SyE-summary2 {
+        padding-top: 8px;
+    }
+}
+
+
+/* SMALL PHONES */
+
+@media (max-width: 480px) {
+
+    .SyE-title {
+        font-size: 1.5rem;
+    }
+
+    .servicios-especialidades {
+        gap: 6px;
+    }
+
+    .s-y-e {
+        min-height: 170px;
+        width: 47%;
+        max-width: 47%;
+        padding: 6px;
+    }
+
+    .header-title {
+        font-size: 0.75rem;
+    }
+
+    .SyE-summary,
+    .SyE-summary2 {
+        font-size: 0.7rem;
+    }
+
+    .SyE-summary {
+        padding-top: 12px;
+    }
+
+    .SyE-summary2 {
         padding-top: 5px;
-        font-size: 12px;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 }
