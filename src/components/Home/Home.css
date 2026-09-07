@@ -33,25 +33,47 @@
 }
 
 .divider {
-    
     width: 400px;
     margin-right: 380px;
     border: none;
     border-top: 3px solid white;
-  }
+}
 
-  .vision-container{
+.vision-container{
     display: flex;
     justify-content: flex-end;
     padding-right: 368px;
-  }
+}
 
-  .vision{
+.vision{
     color: white;
     font-size: 2rem;
-  }
+}
 
-  @media (max-width: 1000px){
+
+/* WHATSAPP BUTTON */
+
+.whatsapp-button {
+    position: fixed;
+    right: 25px;
+    top: 70%;
+    z-index: 1000;
+}
+
+.whatsapp-button img {
+    width: 65px;
+    height: 65px;
+    display: block;
+    transition: transform 0.2s ease;
+}
+
+.whatsapp-button:hover img {
+    transform: scale(1.1);
+}
+
+
+@media (max-width: 1000px){
+
     .header-container{
         background-image: url('/headerImage.png');
         background-size: cover;
@@ -82,26 +104,40 @@
     }
     
     .divider {
-        
         width: 400px;
         margin-right: 120px;
         border: none;
         border-top: 2px solid white;
-      }
+    }
     
-      .vision-container{
+    .vision-container{
         display: flex;
         justify-content: flex-end;
         padding-right: 160px;
-      }
+    }
     
-      .vision{
+    .vision{
         color: white;
         font-size: 1.5em;
-      }
-  }
+    }
+
+
+    /* WHATSAPP BUTTON */
+
+    .whatsapp-button {
+        right: 20px;
+        top: 40%;
+    }
+
+    .whatsapp-button img {
+        width: 60px;
+        height: 60px;
+    }
+}
+
 
 @media (max-width: 700px){
+
     .header-container{
         background-image: url('/headerImage.png');
         background-size: cover;
@@ -132,21 +168,47 @@
     }
     
     .divider {
-        
         width: 200px;
         margin-right: 100px;
         border: none;
         border-top: 2px solid white;
-      }
+    }
     
-      .vision-container{
+    .vision-container{
         display: flex;
         justify-content: flex-end;
         padding-right: 95px;
-      }
+    }
     
-      .vision{
+    .vision{
         color: white;
         font-size: 1em;
-      }
+    }
+
+
+    /* WHATSAPP BUTTON */
+
+    .whatsapp-button {
+        right: 15px;
+        top: 45%;
+    }
+
+    .whatsapp-button img {
+        width: 52px;
+        height: 52px;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    .whatsapp-button {
+        right: 12px;
+        top: 45%;
+    }
+
+    .whatsapp-button img {
+        width: 48px;
+        height: 48px;
+    }
 }

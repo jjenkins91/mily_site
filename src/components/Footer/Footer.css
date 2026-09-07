@@ -6,7 +6,9 @@
     box-sizing: border-box;
 }
 
-/* Logo + name stay vertically aligned */
+
+/* LOGO + NAME */
+
 .logo-name {
     display: flex;
     align-items: center;
@@ -25,6 +27,9 @@
     margin-top: 0;
     margin-bottom: 0;
 }
+
+
+/* CONTACT + SCHEDULE */
 
 .contact-schedule {
     display: flex;
@@ -53,15 +58,31 @@
     font-size: clamp(1rem, 1.8vw, 1.5rem);
 }
 
+
+/* SOCIAL MEDIA */
+
 .social {
     display: flex;
+    flex-direction: row;
     align-items: center;
 }
 
 .follow-us {
     font-size: clamp(1.3rem, 2.2vw, 1.8rem);
-    margin-right: 10px;
-    margin-left: 20px;
+    margin: 0 15px 0 20px;
+}
+
+/* This is the second div inside .social */
+.social > div:last-child {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.social > div:last-child a {
+    display: flex;
+    align-items: center;
 }
 
 .social-icon {
@@ -69,12 +90,12 @@
     height: 35px;
     background-color: white;
     border-radius: 50%;
-    margin-left: 5px;
-    margin-top: 20px;
+    display: block;
 }
 
 
 /* TABLET */
+
 @media (max-width: 1000px) {
 
     .footer-container {
@@ -100,11 +121,23 @@
 
     .follow-us {
         font-size: 1.5rem;
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+
+    .social > div:last-child {
+        gap: 15px;
+    }
+
+    .social-icon {
+        width: 30px;
+        height: 30px;
     }
 }
 
 
 /* PHONE */
+
 @media (max-width: 780px) {
 
     .footer-container {
@@ -134,6 +167,19 @@
     .follow-us {
         font-size: 1.2rem;
         margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .social {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .social > div:last-child {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 12px;
     }
 
     .social-icon {
@@ -144,6 +190,7 @@
 
 
 /* SMALL PHONE */
+
 @media (max-width: 480px) {
 
     .footer-container {
@@ -173,12 +220,23 @@
     .follow-us {
         font-size: 1rem;
         margin-left: 5px;
-        margin-right: 5px;
+        margin-right: 8px;
+    }
+
+    .social {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .social > div:last-child {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
     }
 
     .social-icon {
         width: 25px;
         height: 25px;
-        margin-left: 3px;
     }
 }
