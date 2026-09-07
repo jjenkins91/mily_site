@@ -21,11 +21,22 @@ function Cita() {
           una vida más tranquila y saludable.
         </p>
         <ul>
-          <li className="cita-list">Madalidades de atención presencial y psicológica 100 % online</li>
-          <li className="cita-list">Profesionales de la psicología certificados y colegiados</li>
-          <li className="cita-list">⁠Primera sesión gratuita y sin compromiso</li>
+          <li className="cita-list">
+            Madalidades de atención presencial y psicológica 100 % online
+          </li>
+          <li className="cita-list">
+            Profesionales de la psicología certificados y colegiados
+          </li>
+          <li className="cita-list">
+            ⁠Primera sesión gratuita y sin compromiso
+          </li>
         </ul>
-        <a href="#" class="myButton">
+        <a
+          href="https://wa.me/18049891363?text=Hola%2C%20me%20gustaría%20agendar%20una%20prueba%20gratuita."
+          className="myButton"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Agendar prueba gratuita!
         </a>
       </div>
