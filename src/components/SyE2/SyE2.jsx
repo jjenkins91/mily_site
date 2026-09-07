@@ -3,7 +3,7 @@ import "./SyE2.css";
 function SyE2() {
   return (
     <>
-      <div className="SyE2-container">
+      <div id="especialidades" className="SyE2-container">
         <h2 className="SyE2-title">Servicios y Especialidades</h2>
 
         <div className="servicios-especialidades2">

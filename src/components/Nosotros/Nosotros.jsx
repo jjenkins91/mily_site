@@ -3,7 +3,7 @@ import "./Nosotros.css";
 function Nosotros() {
     return (
         <>
-            <h2 className="nosotros-title">¿Quiénes somos?</h2>
+            <h2 id="nosotros" className="nosotros-title">¿Quiénes somos?</h2>
 
             <div className="nosotros-container">
                 <img className="nosotros-image" src="nosotros.jpeg" alt="" />

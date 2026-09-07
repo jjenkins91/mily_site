@@ -7,13 +7,13 @@ function Navbar() {
                 <a className="nav-link" href="/">INICIO</a>
                 <span className="link-span">|</span>
 
-                <a className="nav-link" href="/">NOSOTROS</a>
+                <a className="nav-link" href="#nosotros">NOSOTROS</a>
                 <span className="link-span">|</span>
 
-                <a className="nav-link" href="/">SERVICIOS</a>
+                <a className="nav-link" href="#servicios">SERVICIOS</a>
                 <span className="link-span">|</span>
 
-                <a className="nav-link" href="/">ESPECIALIDADES</a>
+                <a className="nav-link" href="#especialidades">ESPECIALIDADES</a>
             </nav>
         </>
     );
