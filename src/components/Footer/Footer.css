@@ -1,7 +1,7 @@
 .footer-container {
     background-color: #1D2128;
     min-height: 60vh;
-    color: white;
+    color: #F7F4ED;
     padding: 20px 0;
     box-sizing: border-box;
 }
@@ -23,6 +23,9 @@
 }
 
 .footer-name {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
     margin-left: 10px;
     margin-top: 0;
     margin-bottom: 0;
@@ -88,7 +91,7 @@
 .social-icon {
     width: 35px;
     height: 35px;
-    background-color: white;
+    background-color: #F7F4ED;
     border-radius: 50%;
     display: block;
 }

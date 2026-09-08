@@ -9,7 +9,7 @@
     padding: 40px 20px;
     box-sizing: border-box;
 
-    color: white;
+    color: #F7F4ED;
     text-align: center;
 
     display: flex;
@@ -57,7 +57,7 @@
     display: inline-block;
     cursor: pointer;
 
-    color: white;
+    color: #F7F4ED;
     font-family: 'Josefin Sans', sans-serif;
     font-size: clamp(1rem, 1.8vw, 1.3rem);
     font-weight: 500;
