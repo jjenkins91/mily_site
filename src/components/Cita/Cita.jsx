@@ -5,7 +5,7 @@ function Cita() {
     <>
       <div className="cita-container">
         <p className="cita-title">
-          Comienza hoy to camino hacia el bienestar emocional
+          Comienza hoy tu camino hacia el bienestar emocional
         </p>
         <p className="cita-statement">
           Da el primer paso hacia una vida más

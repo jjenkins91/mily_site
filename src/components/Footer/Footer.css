@@ -97,6 +97,17 @@
 }
 
 
+/* COPYRIGHT */
+
+.copyright {
+    white-space: nowrap;
+    width: max-content;
+    max-width: 100%;
+    font-size: clamp(0.7rem, 1.2vw, 1rem);
+    overflow: hidden;
+}
+
+
 /* TABLET */
 
 @media (max-width: 1000px) {
@@ -135,6 +146,10 @@
     .social-icon {
         width: 30px;
         height: 30px;
+    }
+
+    .copyright {
+        font-size: 0.85rem;
     }
 }
 
@@ -189,6 +204,10 @@
         width: 30px;
         height: 30px;
     }
+
+    .copyright {
+        font-size: 0.75rem;
+    }
 }
 
 
@@ -242,4 +261,9 @@
         width: 25px;
         height: 25px;
     }
+
+    .copyright {
+        font-size: 0.65rem;
+    }
 }
+

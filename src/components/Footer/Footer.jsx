@@ -64,6 +64,7 @@ function Footer() {
         </div>
 
         <hr />
+        <p className="copyright">&copy; 2026 PUNTO EQUILIBRIO NÜA PSICOLOGÍA. All rights reserved.</p>
       </div>
     </>
   );
