@@ -20,9 +20,15 @@ function Footer() {
         <div className="contact-schedule">
           <div className="email">
             <p className="contact-schedule-title">E-mail</p>
-            <p className="contact-schedule-items">
-            nuapsicologia.puntoequilibrio@gmail.com
-            </p>
+            <a
+              href="mailto:nuapsicologia.puntoequilibrio@gmail.com"
+              id="contact-email"
+              className="contact-schedule-items"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              nuapsicologia.puntoequilibrio@gmail.com
+            </a>
           </div>
 
           <div className="horario">
@@ -64,7 +70,9 @@ function Footer() {
         </div>
 
         <hr />
-        <p className="copyright">&copy; 2026 PUNTO EQUILIBRIO NÜA PSICOLOGÍA. All rights reserved.</p>
+        <p className="copyright">
+          &copy; 2026 PUNTO EQUILIBRIO NÜA PSICOLOGÍA. All rights reserved.
+        </p>
       </div>
     </>
   );
