@@ -5,7 +5,7 @@ function Footer() {
     <>
       <div className="footer-container">
         <div className="logo-name">
-          <img className="footer-logo" src="penp2.jpeg" alt="" />
+          <img className="footer-logo" src="penp3.jpeg" alt="" />
           <p className="footer-name">
             PUNTO
             <br />
@@ -21,7 +21,7 @@ function Footer() {
           <div className="email">
             <p className="contact-schedule-title">E-mail</p>
             <p className="contact-schedule-items">
-              puntoequilibrio.nuapsicologia@gmail.com
+            nuapsicologia.puntoequilibrio@gmail.com
             </p>
           </div>
 
