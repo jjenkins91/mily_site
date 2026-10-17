@@ -21,7 +21,7 @@ function Home() {
         </div>
         <a
     className="whatsapp-button"
-    href="https://wa.me/19891363?text=Hola%2C%20me%20gustaría%20agendar%20una%20cita."
+    href="https://wa.me/51960910088?text=Hola%2C%20me%20gustaría%20agendar%20una%20cita."
     target="_blank"
     rel="noopener noreferrer"
 >

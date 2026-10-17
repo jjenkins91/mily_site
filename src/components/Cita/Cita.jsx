@@ -32,7 +32,7 @@ function Cita() {
           </li>
         </ul>
         <a
-          href="https://wa.me/18049891363?text=Hola%2C%20me%20gustaría%20agendar%20una%20prueba%20gratuita."
+          href="https://wa.me/51960910088?text=Hola%2C%20me%20gustaría%20agendar%20una%20prueba%20gratuita."
           className="myButton"
           target="_blank"
           rel="noopener noreferrer"
