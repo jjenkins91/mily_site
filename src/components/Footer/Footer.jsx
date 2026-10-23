@@ -48,7 +48,7 @@ function Footer() {
 
           <div>
             <a
-              href="https://www.facebook.com/profile.php?id=61594015839460"
+              href="https://www.facebook.com/profile.php?id=61595562457222"
               target="_blank"
               rel="noopener noreferrer"
             >
